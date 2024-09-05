@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nunito", sans-serif;
+}
+
+/* navbar start*/
+.navbar{
+    background-color: #f2efea;
+}
+
+.nav-item .nav-link{
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1rem;
+    color: #a29f9c;
+    font-weight: 400;
+}
+
+.nav-item > .nav-link:hover{
+    color: #fd9f1b;
+}
+
+.button {
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #fd9f1b;
+    border-radius: 40px;
+    padding: 12px 40px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover{
+    background-color: #ff9100;
+    color: #ffffff;
+}
+/* navbar end */
+
+/* hero starts */
+.hero{
+    background-color: #f2efea;
+    padding-bottom: 3.5rem;
+    padding-top: 2rem;
+}
+
+.hero h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fd9f1b;
+    font-size: 3.5rem;
+}
+
+.hero h5{
+    color: #6d6b68;
+}
+
+.hero h5 > span{
+    color: #c1852d;
+    font-weight: 800;
+}
+
+.hero .call{
+    border-radius: 40px;
+    padding: 18px 35px 18px 35px;
+    background-color: #ff9100;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 1.3rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero .call:hover{
+    background-color: #dd7e02;
+}
+
+.hero p{
+    font-family: "Nunito", sans-serif;
+    color: #7c6b68;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.hero video{
+border-radius: 30px;
+width: 85%;
+}
+
+/* hero ends */
+
+/* card starts */
+.card-section{
+    background-color: #f3f3f3;
+}
+
+.info-card {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.info-card img {
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+.info-card h6 {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #6c757d;
+}
+.info-card p {
+    font-size: 1.1rem;
+    color: #ff8c00;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
+
+/* card ends */
+
+/* choose-us-section starts */
+.choose-us-section {
+    background-color: #f3f3f3;;
+}
+.choose-us-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b99153;
+    margin-bottom: 30px;
+}
+.choose-us-item {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.choose-us-item img {
+    margin-right: 2rem;
+}
+.choose-us-item h4 {
+    color: #586a92;
+    font-weight: 500;
+    margin-bottom:1rem;
+}
+.choose-us-item p {
+    font-size: 1.25rem;
+    color: #6c757d;
+    font-family: "Nunito", sans-serif;
+}
+
+/* choose-us-section ends */
+
+/* benefit starts */
+.benefits{
+    background-color: #f3f3f3;
+}
+
+.benefit-card h1{
+    padding-top: 3%;
+    color: #b99153;
+    font-weight: 700;
+}
+
+.benefit-card {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.benefit-card img {
+    width: 80%;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card img:hover{
+    transform: scale(1.1);
+}
+
+.benefit-card h6 {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+.benefit-card h6>span{
+    font-weight: 800;
+}
+/* benefit ends */
+
+/* faq starts */
+.faq{
+    background-color: #f3f3f3;
+}
+
+.faq .content{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+
+.faq h1{
+    padding-top: 3%;
+    color: #b99153;
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion-item {
+    overflow: hidden; 
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+}
+
+.accordion-item button{
+    font-size: 1.3rem;
+    color: #596990;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+    font-family: "Nunito", sans-serif;
+    color: #6c757d;
+}
+
+/* faq ends */
+
+/* contact us start */
+.contact-us{
+    background-color:#f3f3f3 ;
+    padding-bottom: 2%;
+}
+
+.contact-us .container{
+    width: 90%;
+    padding: 2.5% 10% 2.5% 10%;
+    background-color: #973752;
+    border-radius: 10px;
+
+}
+
+.contact-us .container h1{
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 700;
+}
+
+.contact-us .container h4{
+    text-align: center;
+    color: #f3f3f3;
+}
+
+.contact-us .form-control{
+    border-radius: 25px;
+    border: 3px solid #f3f3f3;
+    background-color: #973752;
+    font-family: "Nunito", sans-serif;
+ 
+ }
+
+ .contact-us .form-control::placeholder{
+    color: #fff;
+ }
+
+.form-check-label{
+    color: #f3f3f3;
+    font-family: "Nunito", sans-serif;
+}
+
+.form-check-label>span{
+    color: #f2ba3b;
+    font-weight: 700;
+}
+
+.contact-us button{
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius:35px ;
+    color: #973752;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+
+}
+
+/* contact us ends */
+
+/* about company starts */
+.company{
+    background-color:#f2efea ;
+}
+
+.company h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.company p {
+    color: #666;
+    font-family: "Nunito", sans-serif;
+}
+
+.company a {
+    color: #007bff;
+    font-family: "Nunito", sans-serif;
+}
+
+.company .btn-primary {
+    background-color: #a67c52;
+    border: none;
+}
+
+.company .btn-primary:hover {
+    background-color: #8d6542;
+    
+}
+/* about company ends */
+
+
+/* media queries */
+
+@media (max-width:768px){
+    .hero h1,h5,p{
+        text-align: center;
+    }
+
+    .hero .vid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .click h1{
+        font-size: 2.5rem;
+    }
+
+    .click {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-card{
+        margin-bottom: 5%;
+    }
+
+    .company h4{
+        text-align: center;
+    }
+    .choose-us-item{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .choose-us-item img{
+        margin-bottom: 2%;
+    }
+
+    .choose-us-item h4,p{
+        text-align: center;
+    }
+
+    .company .img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:426px){
+    .click h1{
+        font-size: 2.68rem;
+    }
+
+    .click h5{
+        font-size: 0.9rem;
+    }
+
+    .click .call{
+        font-size: 1rem;
+        padding: 3% 7% 3% 7%;
+    }
+
+    .accordion-item button{
+        font-size: 1rem;
+    }
+    
+    .accordion-body{
+        font-size: 0.9rem;
+    }
+}
+
+
+
